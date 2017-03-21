@@ -18,8 +18,6 @@ int main(int argc, char* argv[]) {
 
     read_file("branch.dat", c, stats);
 
-    stats.get_percentage();
-
     cout << "Number of branches: " << stats.get_total() << endl;
     cout << "Number of branches correctly predicted taken: " << stats.get_taken_correct() << endl;
     cout << "Number of branches correctly predicted not taken: " <<  stats.get_notTaken_correct() << endl;
