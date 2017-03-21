@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1490068124 source:/home/daniel/5814/SMITH/Smith/SmithCounter.cpp
+	"SmithCounter.h"
+	<cmath>
+
+1490068738 /home/daniel/5814/SMITH/Smith/SmithCounter.h
+
