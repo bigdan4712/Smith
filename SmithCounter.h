@@ -17,7 +17,7 @@ class SmithCounter
     int state;
     int mask_Value;	// 2^number_Of_Bits -1
 			// a fast way to mask off unused bits
-			// set at creation
+						// set at creation
 };
 
 #endif // SMITHCOUNTER_H
