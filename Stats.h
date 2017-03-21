@@ -19,7 +19,8 @@ class Stats
     int get_taken_incorrect() const;	// number actually taken but predicted incorrectly
     int get_total_notTaken() const;
     int get_notTaken_correct() const;
-    int get_notTaken_incorrect() const;	// number actually taken but predicted incorrectly
+    int get_notTaken_incorrect() const;  // number actually not taken but predicted incorrectly
+    double get_percentage();
     friend std::ostream& operator<< (std::ostream&, const Stats&);
 
   protected:

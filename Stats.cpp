@@ -1,4 +1,5 @@
 #include "Stats.h"
+#include <iostream>
 
 Stats::Stats()
 {
@@ -80,5 +81,13 @@ int Stats::get_notTaken_correct() const {
 int Stats::get_notTaken_incorrect() const {
 
     return total_taken - total_taken_predicted_correctly;
+
+}
+double Stats::get_percentage() {
+
+    double denominator = ((double)get_total());
+    double numerator = ((double)get_notTaken_correct()) + ((double)get_taken_correct());
+
+    return (numerator/denominator)*100;
 
 }

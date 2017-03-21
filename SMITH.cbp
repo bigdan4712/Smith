@@ -31,6 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="SmithCounter.cpp" />
+		<Unit filename="SmithCounter.h" />
+		<Unit filename="Stats.cpp" />
+		<Unit filename="Stats.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />
