@@ -1,3 +1,4 @@
+//Daniel Joseph Day
 #ifndef STATS_H
 #define STATS_H
 #include <iostream>

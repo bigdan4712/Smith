@@ -1,3 +1,4 @@
+//Daniel Joseph Day
 #include "SmithCounter.h"
 #include <cmath>
 

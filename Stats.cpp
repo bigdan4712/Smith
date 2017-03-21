@@ -1,3 +1,4 @@
+//Daniel Joseph Day
 #include "Stats.h"
 #include <iostream>
 

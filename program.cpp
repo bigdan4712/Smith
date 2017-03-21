@@ -1,5 +1,4 @@
 //Daniel Joseph Day
-
 #include "SmithCounter.h"
 #include "Stats.h"
 #include <unistd.h>

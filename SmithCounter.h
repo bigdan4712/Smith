@@ -1,3 +1,4 @@
+//Daniel Joseph Day
 #ifndef SMITHCOUNTER_H
 #define SMITHCOUNTER_H
 
